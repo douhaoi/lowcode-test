@@ -1,7 +1,7 @@
 <template>
   <div class="font-sans p-2">Home</div>
   <div>{{ val }}</div>
-  <button @click="handleAdd()">增加</button>
+  <el-button type="primary" @click="handleAdd()">增加</el-button>
 </template>
 
 <script lang="ts">
@@ -11,7 +11,7 @@ export default {
 </script>
 
 <script lang="ts" setup>
-import { ref } from "vue";
+// import { ref } from "vue";
 
 const val = ref(2022);
 
